@@ -1,7 +1,6 @@
 import React, { PropTypes, Component } from 'react'
 import { Div } from '../components'
 import transform from '../transform'
-import './style.css'
 
 export default class Rotatable extends Component {
   shouldComponentUpdate(nextProps) {
